@@ -4,8 +4,8 @@ import { connect } from "cloudflare:sockets";
 let serviceName = "jefza70.workers.dev";
 let APP_DOMAIN = "flexibilitymoment";
 
-let prxIP = "";
-let cachedPrxList = [];
+let prxIP = "IP";
+let cachedPrxList = [List];
 
 // Constant
 const horse = "dHJvamFu";
