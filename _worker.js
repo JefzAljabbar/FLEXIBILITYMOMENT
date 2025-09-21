@@ -4,8 +4,8 @@ import { connect } from "cloudflare:sockets";
 let serviceName = "jefza70.workers.dev";
 let APP_DOMAIN = "flexibilitymoment";
 
-let prxIP = "IP";
-let cachedPrxList = [List];
+let prxIP = "";
+let cachedPrxList = [];
 
 // Constant
 const horse = "dHJvamFu";
@@ -18,11 +18,11 @@ const PROTOCOLS = [atob(horse), atob(flash), "ss"];
 const SUB_PAGE_URL = "";
 const KV_PRX_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/kvProxyList.json";
 const PRX_BANK_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
-const DNS_SERVER_ADDRESS = "1.1.1.1";
+const DNS_SERVER_ADDRESS = "8.8.8.8";
 const DNS_SERVER_PORT = 53;
 const RELAY_SERVER_UDP = {
   host: "udp-relay.hobihaus.space", // Kontribusi atau cek relay publik disini: https://hub.docker.com/r/kelvinzer0/udp-relay
-  port: 7200,
+  port: 7300,
 };
 const PRX_HEALTH_CHECK_API = "https://id1.foolvpn.me/api/v1/check";
 const CONVERTER_URL = "https://api.foolvpn.me/convert";
