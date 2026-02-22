@@ -11,10 +11,10 @@ let cachedPrxList = [];
 const horse = "dHJvamFu";
 const flash = "dm1lc3M=";
 const v2 = "djJyYXk=";
-const neko = "dmxlc3M=";
+const neko = "Y2xhc2g=";
 
 const PORTS = [443, 80];
-const PROTOCOLS = [atob(horse), atob(flash),  atob(neko), "ss"];
+const PROTOCOLS = [atob(horse), atob(flash), atob(v2), atob(neko), "ss"];
 const SUB_PAGE_URL = "https://foolvpn.web.id/nautica";
 const KV_PRX_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/kvProxyList.json";
 const PRX_BANK_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
